@@ -27,7 +27,7 @@ python3 application1.py
 
 The GUI first opens a openbox where we have to select the folder which contains the images.
 
-![Open Box](screens/open_box.png)
+![Open Box](https://github.com/prajwaljpj/Counting_Vehicles/blob/master/screens/outboxgif.gif)
 
 The folder should only contain images. (See example folder)
 Clicking 'Open'  will open up the gui.
