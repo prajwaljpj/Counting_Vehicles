@@ -43,7 +43,9 @@ class ImageWindow(QLabel):
         # print(command, frame_counter)
         if command == "n" or command == "N":
             tf = frame_counter.find_target_frame()
-            nf = tf+1
+            if (tf+1)<len(frame_counter.data):
+                nf = tf+1
+            else: nf=tf
             worked, path = frame_counter.set_target_frame(nf)
             if worked:
                 frame_extract = QPixmap(path)
